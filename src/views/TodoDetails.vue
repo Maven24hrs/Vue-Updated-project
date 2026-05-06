@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRoute, RouterLink } from 'vue-router'
-import { useTodo } from '../composables/useTodos'
+import { useTodo } from '../composables/useTodo'
 
 const route = useRoute()
 const id = route.params.id as string
